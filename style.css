@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header {
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 20px 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.home-btn:hover, .aboutus-btn:hover, .ourservices-btn:hover, .contactus-btn:hover {
+    background-color: #555555;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-btn, .aboutus-btn, .ourservices-btn {
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    padding: 15px 32px;
+    color: #F0F0F0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contactus-btn {
+    cursor: pointer;
+    background-color: #F8FAAD;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.img logo-1 {
+    width: 88px;
+    height: 63.4px;
+}
+
+.isi-1 {
+    padding-top: 60px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1 {
+    position: absolute;
+    height: 50vh;
+    width: 70vw;
+}
+
+.isi-1 img {
+    margin-left: auto;
+}
+
+
+.isi-1 p {
+    font-size: 156px;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+
+.isi-1 h2 {
+    color: #F0F0F0;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text-1 span {
+    font-size: 80px;
+}
+
+.letstalk-btn {
+    background-color: #F8FAAD;
+    font-weight: 600;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 12px 56px;
+    margin-top: 60px;
+    margin-left: 200px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.letstalk-btn:hover {
+    transition: 0.7s;
+    background-color: lightblue;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+}
+
+.aboutus h1 {
+    color: #F0F0F0;
+    font-size: 64px;
+    font-weight: 700;
+    position: absolute;
+    right: 140px;
+    top: 850px;
+}
+
+.aboutus img {
+    padding-left: 350px;
+}
+
+.aboutus p {
+    color: white;
+    font-weight: 400;
+    text-align: right;
+    margin-left: auto;
+    padding-top: 140px;
+    padding-left: 18%;
+    padding-right: 140px;
+    line-height: 30px;
+}
+
+.aboutus hr {
+    background-color: #F8FAAD;
+    width: 18.2%;
+    height: 4px;
+    position: absolute;
+    right: 140px;
+    top: 930px;
+}
+
+.ourservices {
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.ourservices h2 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.ourservices p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: center;
+    text-align: center;
+}
+
+.ourservices img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.ourservices h1 {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ourservicestitle h1 {
+    color: #F0F0F0;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.ourservicestitle hr {
+    background-color: #F8FAAD;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    height: 5px;
+}
+
+.frame {
+    padding-top: 80px;
+    background-color: #242424;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.digitalmarketing {
+    background-color: #F8FAAD;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.webdesign {
+    background-color: #F8FAAD;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.socialmediaadvertising {
+    background-color: #F8FAAD;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.reputationmanagement {
+    background-color: #F8FAAD;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contactus {
+    background-color: #242424;
+    position: relative;
+}
+
+.contactustitle h1 {
+    color: #F0F0F0;
+    font-size: 64px;
+}
+
+.contactustitle hr {
+    background-color: #F8FAAD;
+    width: 22%;
+    margin-top: 10px;
+    margin-left: 662px;
+    text-align: center;
+    height: 4px;
+}
+
+.frame2 {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.frame2 img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 400px;
+    top: 400px;
+}
+
+.frame2 h1 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.submit input {
+    border-radius: 16px;
+    margin-top: 8px;
+    gap: 10px;
+    height: 20px;
+    width: 270px;
+    text-align: left;
+}
+
+#firstName, #lastName, #email, #phoneNumber {
+    padding-left: 10px;
+    border-width: thin;
+}
+
+#firstName {
+    width: 44%;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#firstName input, #lastName input, #email input, #phoneNumber input, #message textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    transition: border-bottom 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit input,
+.submit textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F0F0F0;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit input:focus,
+.submit textarea:focus {
+    outline: none;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lastName {
+    width: 44%;
+    height: 40px;
+}
+
+#email,
+#phoneNumber {
+    width: 90%; 
+    height: 40px;
+}
+
+.contactustitle {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.submit {
+    background-color: #F8FAAD;
+    width: 500px;
+    padding-left: 2%;
+    border-radius: 16px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-right: 300px;
+}
+
+.submit .sendBtn {
+    background-color: #242424;
+    color: #F8FAAD;
+    width: 133px;
+    height: 44px;
+    border-radius: 8px;
+    margin-left: 160px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sendBtn:hover {
+    background-color: #F8FAAD;
+    color: #242424;
+    transform: scale(1.05);
+}
+
+#message {
+    margin-top: 8px;
+    width: 90%;
+    border-radius: 16px;
+    height: 300px;
+    padding: 10px;
+    resize: vertical; 
+    box-sizing: border-box; 
+    overflow-y: auto;
+}
+
+.contactus .hrterakhir {
+    background-color: #F8FAAD;
+    height: 4px;
+    width: 97%;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footertitle {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.footer hr {
+    background-color: #F8FAAD;
+    width: 94%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 5px;
+}
+
+.footertitle img {
+    margin-right: 10px;
+}
+
+.footertitle p {
+    margin-left: 15px;
+    font-size: 64px;
+    color: #F0F0F0;
+    font-weight: 600;
+}
+
+.footerright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerright img {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.footerimg {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.footerright p {
+    line-height: 30px;
+    padding-top: 10px; 
+    font-size: 20px;
+    color: #F0F0F0;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 430px) {
+
+    * {
+        background-color: #242424;
+    }
+
+    #kuning {
+        background-color: #F8FAAD;
+    }
+
+    input, textarea {
+        background-color: #F0F0F0;
+    }
+
+    .header {
+        padding: 20px 20px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar button {
+        margin-bottom: 10px;
+    }
+
+    .logo-1 {
+        width: 60px;
+        height: 43.4px;
+    }
+
+    .isi-1 {
+        padding-top: 30px;
+    }
+
+    .text-1 {
+        width: 90%;
+        height: 50vh;
+        /* margin: 0 auto; */
+    }
+
+    .isi-1 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .isi-1 p {
+        font-size: 60px;
+    }
+
+    .isi-1 span {
+        font-size: 30px;
+    }
+
+    .isi-1 h2 {
+        text-align: center;
+    }
+
+    .letstalk-btn {
+        margin: 20px auto;
+        padding: 10px 28px;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    .aboutus img {
+        display: none;
+    }
+
+    .aboutus-text {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .ourservices {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactustitle hr {
+        /* background-color: #F8FAAD;
+        width: 22%;
+        margin-top: 10px; */
+        margin-left: 0px;
+        /* text-align: center;
+        height: 4px; */
+    }
+
+
+    .ourservices h1,
+    .ourservices h2,
+    .ourservices p {
+        text-align: center;
+    }
+
+    
+    .frame p {
+        font-size: 10px;
+    }
+
+    .frame h2 {
+        font-size: 10px;
+    }
+
+    .frame h1 {
+        font-size: 12px;
+    }
+
+    .aboutus h1 {
+        font-size: 18px;
+        right: 33px;
+        top: 680px;
+    }
+
+    .aboutus hr {
+        right: 38px;
+        top: 720px;
+    }
+
+    .aboutus p {
+        font-size: 10px;
+        text-align: center;
+        font-weight: 400;
+        margin-left: 52%;
+        padding-top: 80px;
+        padding-left: 20%;
+        padding-right: 0;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .frame {
+        grid-template-columns: none;
+        gap: 5px;
+        padding-top: 30px;
+    }
+
+    .digitalmarketing {
+        padding: 5px 5px;
+    }
+
+    .frame2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .frame2 img {
+        width: 50%;
+        height: auto;
+        position: static;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .frame2 h1 {
+        text-align: center;
+    }
+
+    .submit {
+        width: 100%;
+        margin: 0;
+    }
+
+    .submit .sendBtn {
+        margin-left: 120px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footertitle {
+        margin-bottom: 10px;
+    }
+
+    .footertitle p {
+        font-size: 40px;
+    }
+
+    .footer hr {
+        margin: 0;
+    }
+
+    .footerright img {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .footerimg {
+        margin: 0;
+    }
+    
+    .footerright p {
+        text-align: center;
+    }
+}
